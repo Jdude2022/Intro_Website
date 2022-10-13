@@ -11,7 +11,9 @@ h2{
   border-bottom: 5px double black;
   text-align: center;
 }
-
+h3{
+  text-align: center;
+}
 header{
   margin-left: 0;
   margin-right: 0;
@@ -22,7 +24,7 @@ header{
 }
 body{
   background-color: beige;
-  margin: 0%;
+  margin: 5%;
 }
 
 .button{
@@ -43,15 +45,27 @@ nav{
 }
 #container{
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
+  flex-direction: row;
 }
 
-#aboutMe, #left{
-  flex-grow: 1;
+#profilePicture{
+  margin: auto;
+  display: flex;
+  background-color: red;
+}
+#profilePicture >img{
+  height: 175px;
+  width: 250px;
+  border-radius: 200px;
 }
 
-#content, #main{
-  flex-grow: 5;
+#aboutMe >#left{
+  flex: 1;
+}
+
+#content >#main{
+  flex:2;
 }
 #ball, #long_ball, #wide_ball{
   margin: 0%;
@@ -67,6 +81,10 @@ nav{
 }
 #wide_ball{
   min-width: 500px;
+}
+
+.linkBack{
+  text-align: right;
 }
 
 footer{
