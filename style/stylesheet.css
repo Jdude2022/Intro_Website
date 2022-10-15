@@ -35,24 +35,41 @@ body{
   font-size: larger;
   border-radius: 10px;
 }
-
+.inProgress{
+  display: inline-flex;
+  color: gainsboro;
+  font-size: larger;
+}
 nav{
   margin-top: -3px;
-  margin-right: -auto;
   padding: 18px;
   text-align: right;
-  background-color: green;
+  background-color:forestgreen;
 }
+
 #container{
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
+@media(max-width: 600px)
+{
+  #container{
+    flex-direction: column;
+  }
+  #profilePicture{
+    justify-content: center;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
 #profilePicture{
   margin: auto;
   display: flex;
-  background-color: red;
 }
 #profilePicture >img{
   height: 175px;
