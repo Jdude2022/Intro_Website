@@ -1,5 +1,5 @@
 # Intro_Website
-# ToDo add a weekly Blog post for funsies 
+# ToDo add a weekly Blog post for funsies < --- Going to use a seperate site for blog, maybe keep blog for tech adjecnt.
 add a book currently reading, and chapter summ or take aways?
 currently reading, mythical man month, Edible economics, Mort? Goal is 4ish books a month, and 1 audio book. maybe add art book? 
 
@@ -7,3 +7,5 @@ currently reading, mythical man month, Edible economics, Mort? Goal is 4ish book
 Need to read sandman series, and finish journey to the west as well.
 
 Maybe add a favorite image section or header, maybe change monthly or something?
+
+Need to work on this again.
