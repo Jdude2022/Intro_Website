@@ -9,3 +9,5 @@ Need to read sandman series, and finish journey to the west as well.
 Maybe add a favorite image section or header, maybe change monthly or something?
 
 Need to work on this again.
+
+### ^ Note to self, better to rebuilt with hugo sooner rather than later.
